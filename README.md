@@ -24,9 +24,21 @@ The dataset includes the following columns:
 - `precipitation`: Precipitation in mm.
 - `pressure`: Atmospheric pressure in hPa.
 
-The data is organized as follows:
-- `training_set/`: Contains three decades of data in separate `.csv` files, each with corrupted and uncorrupted versions.
-- `test_set.csv`: Contains the fourth decade of corrupted data, with missing values to be imputed.
+## File Structure
+The data files are uploaded individually and are organized as follows:
+
+### Training Data Files
+- `training_set_0.csv`: Corrupted data for the first decade.
+- `training_set_0_nogaps.csv`: Uncorrupted data for the first decade.
+- `training_set_1.csv`: Corrupted data for the second decade.
+- `training_set_1_nogaps.csv`: Uncorrupted data for the second decade.
+- `training_set_2.csv`: Corrupted data for the third decade.
+- `training_set_2_nogaps.csv`: Uncorrupted data for the third decade.
+
+### Test Data File
+- `test_set.csv`: Corrupted data for the test set (fourth decade), with missing values to be recovered.
+
+Each training set file contains paired corrupted and uncorrupted datasets, while the test set contains only corrupted data. These files are designed to train and evaluate the neural network architecture for missing value recovery.
 
 ---
 
