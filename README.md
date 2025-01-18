@@ -96,11 +96,4 @@ This repository demonstrates the ability to:
 
 ---
 
-## 🔗 Dataset Access
-Due to size limitations, large files are hosted externally. You can access the training and test datasets through the following links:
-- [Training Data](#) *(Add link here)*
-- [Test Data](#) *(Add link here)*
-
----
-
 Feel free to reach out with any inquiries or for clarification!
